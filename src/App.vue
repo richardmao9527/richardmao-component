@@ -1,17 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    // 默认按钮
+    <poly-button>默认按钮</poly-button>
+    // 带类型的按钮
+    <poly-button type="primary">主要按钮</poly-button>
+    <poly-button type="warning">警告按钮</poly-button>
+    <poly-button type="danger">危险按钮</poly-button>
+    <poly-button type="success">成功按钮</poly-button>
+    <poly-button type="info">信息按钮</poly-button>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    // HelloWorld,
   },
 };
 </script>

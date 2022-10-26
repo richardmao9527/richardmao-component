@@ -27,3 +27,5 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### [搭建vue组件库发布到npm](https://juejin.cn/post/6869279208439791623#heading-8)
